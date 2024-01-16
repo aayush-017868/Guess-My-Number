@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+
+  html{
+    font-size: 60%;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: sans-serif;
+    color: rgb(43, 226, 220);
+    background-color: gray;
+    
+  }
+
+  header{
+    position: relative;
+    height: 35vh;
+    border-bottom: 7px solid rgb(10, 8, 8);
+  }
+
+  h1{
+    font-size: 40px;
+    /* align-items: center; */
+    display: flex;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 40%;
+  }
+
+  .between{
+    font-size: 25px;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  .again{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+  }
+
+
+
+  
+  main{
+      height: 65vh;
+      color: rgb(43, 226, 220);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.left{
+    width: 52rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right{
+    width: 52rem;
+    font-size: 3rem;
+}
+
+.number{
+    background-color: #222;
+    color: rgb(43, 226, 220);
+    border: 6px solid black;
+    border-radius: 60%;
+    font-size: 6rem;
+    width: 15rem;
+    padding: 3rem 0rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.guess{
+    background-color: rgb(54, 57, 61);
+    border: 4px solid rgb(233, 225, 225);
+    font-family: inherit;
+    color:inherit;
+    font-size: 40px;
+    padding: 2.5rem;
+    width: 25rem;
+    text-align: center;
+    display: block;
+    margin-bottom: 3rem;
+}
+    .btn{
+      border: 3px solid black;
+      background-color: rgb(43, 226, 220);
+      color: #222;
+      font-size: 3rem;
+      font-family: inherit;
+      padding: 1rem 3rem;
+      cursor: pointer;
+    }
+
+    .btn:hover{
+        background-color: aquamarine;
+    }
+
+    .message{
+        margin-bottom: 8rem;
+        height: 4rem;
+    }
+
+    .label-score{
+        margin-bottom: 1rem;
+    }
