@@ -1,6 +1,6 @@
 # 🎲 Guess My Number Game
 
-Welcome to my Guess My Number game project! This is an interactive game built using HTML, CSS, and JavaScript.
+Welcome to my [Guess My Number](https://aayush-017868.github.io/Guess-My-Number/) game project! This is an interactive game built using HTML, CSS, and JavaScript.
 
 ## 🎯 Project Objective
 
